@@ -44,3 +44,33 @@ for(i = 1; i < 11; i++){
 	numm = numm + i
 }
 alert('1から10まで足し算した結果は' + numm + 'です。');
+
+
+function addString(strA){
+	var addStr = "Hello" + strA;
+	return addStr;
+}
+
+
+function addString(strA){
+	var addStr = 'Hello' + strA;
+	return addStr;
+}
+
+var alertString;
+alertString = addString("Webcamp");
+
+alert(alertString);
+
+
+
+
+
+var promptStr = prompt('何か好きな文字を入力してください。');
+alert(promptStr);
+
+
+var user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
+alert('あなたの選んだ手は' + user_hand + 'です。');
+
+
